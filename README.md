@@ -1,5 +1,6 @@
 # Simple Multi-Layer Parallax
 Light weight library for creating multi layer parallax on scroll.
+
 Pull requests are welcome.
 
 ## Usage
@@ -34,10 +35,15 @@ css:
 First parameter is the parent container's ID
 Second parameter is the layer class
 Third is an array of objects that defines the following settings :
+
 `screen` optionnal, the maximum screen width for which the current object applies.
+
 `start` defines at which scroll position the animation begins.
+
 `height` defines for how long of a scroll should the layers be animated.
+
 `offset` is how much the layers move when animating.
+
 `slowdown` optionnal, slows down the scrolling when the parallax is animating (this helps greatly to perceive the animantion and depth).
 
 ## Helpers
